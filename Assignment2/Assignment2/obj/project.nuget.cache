@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "C7bbAS4kmfjtO8+Ye8T3bKwzbLO5XQU0A+tlImFH89YGhRN4odPafuXbDbgTwRsk0EHBB5Cj7JQ22d/qGfYHBw==",
+  "dgSpecHash": "fwqVH9q0OEGezoboelyPlhyvA7qnNroIRpufzTXwMTxdNhh5IvCcOHwho9kqtgfRoe8XFe9LOMf2QATnOUaLdQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\moham\\Uni(Software)\\4.Semester\\SWT\\Lektion6\\Handing_2\\Assignment2\\Assignment2\\Assignment2.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\batu1\\Desktop\\4. semester\\Software test\\Assignment2\\Assignment2\\Assignment2\\Assignment2\\Library.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\batu1\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\batu1\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
+    "C:\\Users\\batu1\\.nuget\\packages\\nunit\\3.13.3\\nunit.3.13.3.nupkg.sha512"
+  ],
   "logs": []
 }

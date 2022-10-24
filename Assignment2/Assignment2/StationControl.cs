@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.Design;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -83,5 +84,23 @@ namespace Ladeskab
         }
 
         // Her mangler de andre trigger handlere
+
+        private void DoorState(IDoor _door)
+        {
+            switch (_state)
+            {
+                    if (LadeskabState.DoorOpen)
+                    {
+                        Console.WriteLine("Tilslut telefon");
+                    }
+
+                    else (LadeskabState.Available)
+
+                    {
+                        Console.WriteLine("Indlæs RFID");
+                    }
+            }
+        }
+
     }
 }
