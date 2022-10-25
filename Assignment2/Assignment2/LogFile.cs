@@ -1,6 +1,7 @@
 ﻿namespace Library;
 public interface ILogFile {
-
+    public void LogDoorLocked();
+    public void LogDoorUnlocked();
 }
 public class LogFile : ILogFile
 {

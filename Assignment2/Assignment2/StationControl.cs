@@ -36,8 +36,6 @@ public class StationControl
         //skal fixes
         x.OnRfidRead(2000);  
     }
-    
-    
     // Eksempel på event handler for eventet "RFID Detected" fra tilstandsdiagrammet for klassen
     private void RfidDetected(int id)
     {
@@ -64,9 +62,7 @@ public class StationControl
                     _display.StationMessage("xd");
                     Console.WriteLine("Din telefon er ikke ordentlig tilsluttet. Prøv igen.");
                 }
-
                 break;
-
             case LadeskabState.DoorOpen:
                 // Ignore
                 break;
