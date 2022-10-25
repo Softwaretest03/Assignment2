@@ -24,11 +24,20 @@ public class StationControl
     private IChargeControl _charger;
     private int _oldId;
     private IDoor _door;
+    private IDisplay _display;
 
     private string logFile = "logfile.txt"; // Navnet på systemets log-fil
 
     // Her mangler constructor
 
+    public StationControl() {
+        Library.RfidReader x = new Library.rfidReader();
+        x.RfidEvent += RfidDetected;
+        //skal fixes
+        x.OnRfidRead(2000);  
+    }
+    
+    
     // Eksempel på event handler for eventet "RFID Detected" fra tilstandsdiagrammet for klassen
     private void RfidDetected(int id)
     {
@@ -43,14 +52,16 @@ public class StationControl
                     _oldId = id;
                     using (var writer = File.AppendText(logFile))
                     {
+
                         writer.WriteLine(DateTime.Now + ": Skab låst med RFID: {0}", id);
                     }
-
+                    
                     Console.WriteLine("Skabet er låst og din telefon lades. Brug dit RFID tag til at låse op.");
                     _state = LadeskabState.Locked;
                 }
                 else
                 {
+                    _display.StationMessage("xd");
                     Console.WriteLine("Din telefon er ikke ordentlig tilsluttet. Prøv igen.");
                 }
 
