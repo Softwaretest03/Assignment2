@@ -1,4 +1,6 @@
-﻿namespace Library {
+﻿using System;
+
+namespace Library {
     public delegate void Notify();
 
     public interface IRfidReader {

@@ -1,0 +1,5 @@
+C:\Users\moham\Uni(Software)\4.Semester\SWT\Assignment2\Assignment2\Assignment2\obj\Debug\net6.0\Library.csproj.AssemblyReference.cache
+C:\Users\moham\Uni(Software)\4.Semester\SWT\Assignment2\Assignment2\Assignment2\obj\Debug\net6.0\Library.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\moham\Uni(Software)\4.Semester\SWT\Assignment2\Assignment2\Assignment2\obj\Debug\net6.0\Library.AssemblyInfoInputs.cache
+C:\Users\moham\Uni(Software)\4.Semester\SWT\Assignment2\Assignment2\Assignment2\obj\Debug\net6.0\Library.AssemblyInfo.cs
+C:\Users\moham\Uni(Software)\4.Semester\SWT\Assignment2\Assignment2\Assignment2\obj\Debug\net6.0\Library.csproj.CoreCompileInputs.cache

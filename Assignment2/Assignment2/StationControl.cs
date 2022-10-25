@@ -5,7 +5,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Ladeskab.Interfaces;
+//using Ladeskab.Interfaces;
 
 namespace Ladeskab;
 
@@ -21,21 +21,29 @@ public class StationControl
 
     // Her mangler flere member variable
     private LadeskabState _state;
-    private IChargeControl _charger;
+    //private Library.IChargeControl _charger;
     private int _oldId;
-    private IDoor _door;
-    private IDisplay _display;
+    private Library.IDoor _door;
+    private Library.IDisplay _display;
 
     private string logFile = "logfile.txt"; // Navnet på systemets log-fil
 
     // Her mangler constructor
 
     public StationControl() {
-        Library.RfidReader x = new Library.rfidReader();
-        x.RfidEvent += RfidDetected;
+        Library.rfidReader x = new Library.rfidReader();
+
+        x.RfidEvent += Test();
         //skal fixes
         x.OnRfidRead(2000);  
     }
+
+    public Library.Notify Test(EventArgs e)
+    {
+        RfidDetected(2000);
+
+    }
+
     // Eksempel på event handler for eventet "RFID Detected" fra tilstandsdiagrammet for klassen
     private void RfidDetected(int id)
     {

@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "t0RvX7bx/imJ/NvcAOlNKKKMDbC69WjaWlwre/+bluGHFargfNwXZ66tbhLjEXWdFRsqaQzWJZcE65EzoVuboA==",
+  "dgSpecHash": "tcI3uxxVwFCAaUOVE7L2Hj+ijn1pBmiRCpnTHHSU9nFnAcNcFVSnOxzqaXnb/+/Isvqei8t+8FWOUXcadk8V/w==",
   "success": true,
-  "projectFilePath": "c:\\Users\\jepp5\\Documents\\GitHub\\Assignment2\\Assignment2\\Test\\Test.csproj",
+  "projectFilePath": "C:\\Users\\moham\\Uni(Software)\\4.Semester\\SWT\\Assignment2\\Assignment2\\Test\\Test.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\jepp5\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\jepp5\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
-    "C:\\Users\\jepp5\\.nuget\\packages\\nunit\\3.13.3\\nunit.3.13.3.nupkg.sha512"
+    "C:\\Users\\moham\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\moham\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
+    "C:\\Users\\moham\\.nuget\\packages\\nunit\\3.13.3\\nunit.3.13.3.nupkg.sha512"
   ],
   "logs": []
 }

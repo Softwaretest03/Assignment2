@@ -1,7 +1,7 @@
 ﻿namespace Library;
 public interface IDisplay {
-    public void StationMessage();
-    public void ChargingMessage();
+    public void StationMessage(string msg);
+    public void ChargingMessage(string msg);
 }
 public class Display : IDisplay
 {
