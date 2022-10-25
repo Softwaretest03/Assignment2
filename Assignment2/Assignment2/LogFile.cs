@@ -1,6 +1,8 @@
 ﻿namespace Library;
+public interface ILogFile {
 
-public class LogFile
+}
+public class LogFile : ILogFile
 {
     
 }
