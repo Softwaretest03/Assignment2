@@ -18,10 +18,16 @@ namespace UsbSimulator
 
         // Require connection status of the phone
         bool Connected { get; }
-
-        // Start charging
         void StartCharge();
-        // Stop charging
+
         void StopCharge();
+    }
+    public class UsbCharger : IUsbCharger {
+        void StartCharge() {
+            // Start charging
+        }
+        void StopCharge() {
+            //Stop charging
+        }
     }
 }

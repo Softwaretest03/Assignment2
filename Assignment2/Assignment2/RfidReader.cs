@@ -1,6 +1,6 @@
 ﻿namespace Library {
     public interface IRfidReader {
-        public void OnRfidRead();
+        void ReadRfid();
     }
     public class rfidReader : IRfidReader
     {
@@ -12,6 +12,9 @@
                 console.WriteLine("ERROR: id is faulty");
             }
                 //Skal sende alert til stationcontrol som skal afgøre hvorvidt skabet skal låses
+        }
+        public void ReadRfid(){
+            //What should this do
         }
     }
 }
